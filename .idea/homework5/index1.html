@@ -2,50 +2,138 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
     <title>task2</title>
+    <style>
+body{
+    background-color: aqua;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+.header {display: block;
+    font-size: 150px;
+    margin-left: 80px;
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom:80px ;
+    ont-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+}
+.main{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+.contener{
+    display: flex;
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    ont-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 30px;
+
+}
+.black{
+    background-color: black;
+    color:white;
+    text-align: center;
+}
+.red{
+    background-color: red;
+    color:white;
+}
+.green{
+    background-color: green;
+    color:white;
+}
+.blue{
+    background-color: blue;
+    color:white;
+}
+.fuchsia{
+    background-color: hotpink;
+    color:white;
+}
+.white{
+    background-color: white;
+}
+.yellow{
+    background-color: yellow;
+}
+.purple{
+    background-color: purple;
+    color:white;
+}
+.maroon{
+    background-color: firebrick;
+    color:white;
+}
+.olive{
+    background-color: darkolivegreen;
+    color:white;
+}
+
+    </style>
 </head>
 <body>
-<h1>HTML Colors</h1>
-<div>
-    <p>Black</p>
+<h1 class="header">HTML Colors</h1>
+<div class="main">
+
+<div class="contener black" >
+    <p >Black</p>
     <p>#000000</p>
 </div>
-<div>
+<div class="contener red" >
     <p>Red</p>
     <p>FF#0000</p>
 </div>
-<div>
+<div class="contener green" >
     <p>Gren</p>
     <p>#00FF00</p>
 </div>
-<div>
+<div class="contener blue">
     <p>Blue</p>
     <p>#0000FF</p>
 </div>
-<div>
+<div class="contener fuchsia">
     <p>Fuchsia</p>
     <p>#FF00FF</p>
     
 </div>
-<div>
+<div class="contener white">
    <p>White</p>
     <p>#FFFFFF</p>
 </div>
-<div>
+<div class="contener yellow">
     <P>Yellow</P>
     <P>#FFFF00</P>
 </div>
-<div>
+<div class="contener purple">
     <p>Purple</p>
 <p>800080</p>
 </div>
-<div>
+<div class="contener maroon">
     <p>Maroon</p>
     <p>#800000</p>
 </div>
-<div>
+<div class="contener olive">
     <p>Olive</p>
     <p>#808000</p>
+</div>
 </div>
 </body>
 </html>
