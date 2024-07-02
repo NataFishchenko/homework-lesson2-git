@@ -2,80 +2,146 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
     <title>MacBookPro16-2</title>
     <style>
-        *{
+        * {
             margin: 0;
             padding: 0;
             box-sizing: border-box;
         }
-        header{
+
+        header {
             height: 22vh;
-            width: 100vw;
+
             background: #8D8484;
         }
-        footer{
+
+        footer {
             height: 22vh;
             background: #BDBDBD;
-            width: 100vw;
-        }
-       main{
-           display: flex;
-       }
 
-        .content1{
+        }
+
+        main {
+            display: flex;
+        }
+
+        .content1 {
             height: 19vh;
             width: 73vw;
             background: #776969;
 
         }
-        .content2{
+
+        .content2 {
             height: 19vh;
             width: 73vw;
             background: #643030;
 
         }
-        .content3{
+
+        .content3 {
             height: 18vh;
             width: 73vw;
-           background-color:  #441818;
+            background-color: #441818;
         }
-        .spam-1{
+
+        .spam-1 {
             background: #937575;
             height: 27vh;
             width: 27vw;
         }
-        .spam-2{
+
+        .spam-2 {
+
             height: 29vh;
             width: 27vw;
             background: #644C4C;
 
         }
+
+        .text1 {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #000000;
+
+            padding-top: 5px;
+            padding-bottom: 4px;
+            font-size: 45px;
+            font-weight: 400;
+            line-height: 55px;
+
+
+        }
+
+        footer p {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+
+
+            color: #000000;
+            padding-top: 5px;
+            padding-bottom: 4px;
+            font-size: 45px;
+            font-weight: 400;
+            line-height: 55px;
+
+        }
+
+        section p {
+            display: flex;
+            font-size: 45px;
+            font-weight: 400;
+            line-height: 54px;
+            text-align: left;
+            color: #FFFFFF;
+
+
+        }
+
+        aside p {
+            color: #FFFFFF;
+            display: flex;
+            font-size: 45px;
+            font-weight: 400;
+            line-height: 54px;
+            text-align: left;
+
+
+        }
+
+
     </style>
 </head>
 <body>
 <header>
-    <p>Header</p>
+    <p class="text1">Header</p>
 </header>
 <main>
-<div>
-    <section class="content1">
-        <p>Content - 1</p>
-    </section>
-    <section class="content2">
-        <p>Content - 2</p>
-    </section >
-    <section class="content3">
-        <p>Content - 3</p>
-    </section>
-</div>
-   <div>
-    <aside class="spam-1">
-        <p>spam -1</p>
-    </aside>
-    <aside class="spam-2">
-        <p>spam -2</p>
-    </aside>
+    <div>
+        <section class="content1">
+            <p>Content - 1</p>
+        </section>
+        <section class="content2">
+            <p>Content - 2</p>
+        </section>
+        <section class="content3">
+            <p>Content - 3</p>
+        </section>
+    </div>
+    <div>
+        <aside class="spam-1">
+            <p>spam -1</p>
+        </aside>
+        <aside class="spam-2">
+            <p>spam -2</p>
+        </aside>
     </div>
 </main>
 <footer>
