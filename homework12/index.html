@@ -4,9 +4,86 @@
     <meta charset="UTF-8">
     <title>Table1</title>
     <style>
-        tfoot>tr>th:last-child{
+
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            border-spacing:0;
+        }
+        table{
+            width:800px;
+            font-size:18px;
+            margin: 20px auto;
+        }
+        td,th{
+            border:1px solid grey;
+
+        }
+        th{
+            text-align: center;
+            color:red;
+        }
+        tbody>td :nth-last-child(n+2){
+            width: 220px;
+        }
+
+        .blue{
+            background-color: blue;
+            width: 360px;
+        }
+        .black{
+            background-color: black;
+        }
+        .red{
+            background-color: red;
+        }
+        .white{
+            background-color: white;
+        }
+        .green{
+            background-color: green;
+        }
+        .purple{
+            background-color: purple;
+        }
+        .yellow{
+            background-color: yellow;
+        }
+        .orange{
+            background-color: orange;
+        }
+        .violet{
+            background-color: violet;
+        }
+        .silver{
+            background-color: silver;
+        }
+        .gold{
+            background-color: gold;
+        }
+        .gray{
+            background-color: gray;
+        }
+        .pink{
+            background-color: pink;
+        }
+        .fuscia{
+            background-color: fuchsia;
+        }
+        .l-blue{
+            background-color: lightskyblue;
+        }
+        .s-blue{
+            background-color: skyblue;
+        }
+        .aqua{
+            background-color: aqua;
+        }
+        .khaki{
             background-color: khaki;
         }
+
     </style>
 </head>
 <body>
@@ -20,96 +97,96 @@
     </thead>
     <tbody>
     <tr>
-        <th>Blue</th>
-        <th>#0000FF</th>
-        <th class="blue"></th>
+        <td>Blue</td>
+        <td>#0000FF</td>
+        <td class="blue"></td>
     </tr>
     <tr>
-        <th>Black</th>
-        <th>#000000</th>
-        <th class="black"></th>
+        <td>Black</td>
+        <td>#000000</td>
+        <td class="black"></td>
     </tr>
     <tr>
-        <th>Red</th>
-        <th>#FF000</th>
-        <th class="red"></th>
+        <td>Red</td>
+        <td>#FF000</td>
+        <td class="red"></td>
     </tr>
     <tr>
-        <th>White</th>
-        <th>#FFFFFF</th>
-        <th class="white"></th>
+        <td>White</td>
+        <td>#FFFFFF</td>
+        <td class="white"></td>
     </tr>
     <tr>
-        <th>Green</th>
-        <th>#008000</th>
-        <th class="green"></th>
+        <td>Green</td>
+        <td>#008000</td>
+        <td class="green"></td>
     </tr>
     <tr>
-        <th>Purple</th>
-        <th>#800080</th>
-        <th class="purple"></th>
+        <td>Purple</td>
+        <td>#800080</td>
+        <td class="purple"></td>
     </tr>
     <tr>
-        <th>Yellow</th>
-        <th>#FFFF00</th>
-        <th class="yellow"></th>
+        <td>Yellow</td>
+        <td>#FFFF00</td>
+        <td class="yellow"></td>
     </tr>
     <tr>
-        <th>Orange</th>
-        <th>#FFA500</th>
-        <th class="orange"></th>
+        <td>Orange</td>
+        <td>#FFA500</td>
+        <td class="orange"></td>
     </tr>
     <tr>
-        <th>Violet</th>
-        <th>#EE82EE</th>
-        <th class="violet"></th>
+        <td>Violet</td>
+        <td>#EE82EE</td>
+        <td class="violet"></td>
     </tr>
     <tr>
-        <th>Silver</th>
-        <th>#C0C0C0</th>
-        <th class="silver"></th>
+        <td>Silver</td>
+        <td>#C0C0C0</td>
+        <td class="silver"></td>
     </tr>
     <tr>
-        <th>Gold</th>
-        <th>#FFD700</th>
-        <th class="gold"></th>
+        <td>Gold</td>
+        <td>#FFD700</td>
+        <td class="gold"></td>
     </tr>
     <tr>
-        <th>Gray</th>
-        <th>#808080</th>
-        <th class="gray"></th>
+        <td>Gray</td>
+        <td>#808080</td>
+        <td class="gray"></td>
     </tr>
     <tr>
-        <th>Pink</th>
-        <th>#FFC0CB</th>
-        <th class="pink"></th>
+        <td>Pink</td>
+        <td>#FFC0CB</td>
+        <td class="pink"></td>
     </tr>
     <tr>
-        <th>Fuscia</th>
-        <th>#FF00FF</th>
-        <th class="fuscia"></th>
+        <td>Fuchsia</td>
+        <td>#FF00FF</td>
+        <td class="fuscia"></td>
     </tr>
     <tr>
-        <th>Light Blue</th>
-        <th>#ADD8E6</th>
-        <th class="l-blue"></th>
+        <td>Light Blue</td>
+        <td>#ADD8E6</td>
+        <td class="l-blue"></td>
     </tr>
     <tr>
-        <th>Sky Blue</th>
-        <th>#87CEEB</th>
-        <th class=" s-blue"></th>
+        <td>Sky Blue</td>
+        <td>#87CEEB</td>
+        <td class=" s-blue"></td>
     </tr>
     <tr>
-        <th>Aqua</th>
-        <th>#00FFFF</th>
-        <th class="aqua"></th>
+        <td>Aqua</td>
+        <td>#00FFFF</td>
+        <td class="aqua"></td>
     </tr>
     </tbody>
     <tfoot>
     <tr>
-        <th>Khaki</th>
-        <th>#F0E68C</th>
-        <th></th>
+        <td>Khaki</td>
+        <td>#F0E68C</td>
+        <td class="khaki"></td>
     </tr>
     </tfoot>
 </table>
