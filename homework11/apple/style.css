@@ -106,10 +106,10 @@ p.services-p{
 }
 
 @keyframes left {
-    0%{
+    0% {
         transform: translateX(340px);
     }
-    100%{
+    100% {
         transform: translateX(0);
     }
 }
@@ -123,7 +123,7 @@ p.services-p{
         opacity: 0;
         transform: translateY(50px);
     }
-    100%{
+    100% {
         opacity: 1;
         transform: translateY(0);
     }

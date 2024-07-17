@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Pexels</title>
+    <style>
+        *{
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        video{
+            object-fit: cover;
+            position: absolute;
+            top:0;
+            z-index: -1;
+        }
+        form{
+            position: fixed;
+            top:60vh;
+            left:30vw;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 450px;
+            height: 50px;
+            background-color: white;
+            padding: 10px 10px;
+            border: 2px solid darkgray;
+            border-radius: 5px;
+        }
+        p{
+            position: fixed;
+            top:50vh;
+            left:30vh;
+            font-size: 30px;
+            font-weight: 600;
+            color: white;
+        }
+        button:first-child{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 120px;
+            height: 48px;
+            gap: 8px;
+            padding-right: 20px;
+            padding-left: 5px;
+            border-radius: 6px;
+            font-weight: 600;
+            border: none;
+
+        }
+        input[type="search"]{
+            width: 250px;
+            border:none;
+
+        }
+        button:last-child{
+            width: 50px;
+            height: 48px;
+            border-radius: 6px;
+            border: none;
+
+        }
+        .registration{width: 100px;
+            height: 48px;
+            background-color: white;
+            border-radius: 6px;
+                    }
+        a{
+            text-decoration: none;
+            font-size: 20px;
+            font-weight: 600;
+            color: white;
+
+        }
+        li{
+            list-style-type: none;
+        }
+        header{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 50px;
+            width: 100vw;
+            margin-top: 20px;
+
+        }
+        .nav{
+            width: 60%;
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+
+        }
+        ul{
+            width: 50%;
+            display: flex;
+            justify-content: space-evenly;
+            gap: 20px;
+
+
+        }
+.logo{
+    width: 20px;
+    height: 20px;
+    margin: 10px;
+
+}
+
+    </style>
+</head>
+<body>
+<div class="contener">
+<header>
+    <div class="logo">
+        <img src="https://seeklogo.com/images/P/pexels-logo-EFB9232709-seeklogo.com.png" alt="logo">
+    </div>
+    <div class="nav">
+        <ul>
+            <li> <a href="#">Поиск фото</a></li>
+            <li><a href="">Лицензия</a></li>
+            <li><a href="">Загрузка</a></li>
+            <li><a href="#">...</a></li>
+        </ul>
+        <button class="registration">Регистрация</button>
+
+    </div>
+</header>
+<p>Лучшие бесплатные стоковые видео от сообщества Pexels </p>
+<form >
+    <button>
+        <img src="img/icons8-video-50.png" alt="icon-video">Видео
+    </button>
+    <input type="search" name="search" placeholder="Ищите бесплатные видео">
+    <button>
+        <img src="img/icons8-search-24.png" alt="search">
+    </button>
+
+</form>
+<video src="video/sea.mp4" loop autoplay muted></video>
+</div>
+
+</body>
+</html>
