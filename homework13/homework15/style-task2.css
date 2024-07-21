@@ -1,0 +1,40 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    height: 20vh;
+    width:100vw;
+    background-color: gray;
+    margin: 10px;
+}
+section{
+   display: flex;
+    flex-direction: row;
+
+}
+
+.box{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.b{
+    height: 60vh;
+    width:65vw;
+    background-color:gray ;
+    margin-left: 10px ;
+}
+.c,.d,.e{height: 20vh;
+    width:20vw;
+    background-color:gray ;
+    margin: 10px;
+}
+.f{
+    background-color: gray;
+    height: 80vh;
+    width:40vw;
+    margin-left: 0;
+
+}

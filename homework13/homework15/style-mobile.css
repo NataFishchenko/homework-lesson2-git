@@ -1,0 +1,14 @@
+@media screen and (max-width: 480px) {
+   section{display: flex;
+       flex-direction: column;
+   }
+    section>div:first-child{
+        height: 60vh;
+        width: 100vw;
+    }
+    section>div:last-child{
+        height: 40vh;
+        width:100vw;
+
+    }
+}
