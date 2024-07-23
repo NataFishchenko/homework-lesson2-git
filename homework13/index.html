@@ -56,7 +56,7 @@
             border:none;
 
         }
-        button:last-child{
+        .search{
             width: 50px;
             height: 48px;
             border-radius: 6px;
@@ -67,12 +67,14 @@
             height: 48px;
             background-color: white;
             border-radius: 5px;
+            border: none;
 
                     }
         .logo{
-            width: 50px;
-            height: 50px;
-            margin: 10px;
+            width: 100px;
+            height: 100px;
+            margin-top: 50px;
+
         }
         a{
             text-decoration: none;
@@ -116,7 +118,7 @@
 <div class="contener">
 <header>
     <div class="logo">
-        <img src="https://seeklogo.com/images/P/pexels-logo-EFB9232709-seeklogo.com.png" alt="logo">
+        <img src="img/pexels-seeklogo.svg" alt="logo">
     </div>
     <div class="nav">
         <ul>
@@ -131,11 +133,11 @@
 </header>
 <p>Лучшие бесплатные стоковые видео от сообщества Pexels </p>
 <form >
-    <button>
+    <button >
         <img src="img/icons8-video-50.png" alt="icon-video">Видео
     </button>
     <input type="search" name="search" placeholder="Ищите бесплатные видео">
-    <button>
+    <button class="search">
         <img src="img/icons8-search-24.png" alt="search">
     </button>
 
