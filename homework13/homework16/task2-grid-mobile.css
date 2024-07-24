@@ -1,0 +1,12 @@
+@media screen and (max-width: 480px){
+    section{
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-areas:
+    'header header header'
+        'b b b'
+        'c d e'
+        'f f f'
+    ;
+    }
+}
